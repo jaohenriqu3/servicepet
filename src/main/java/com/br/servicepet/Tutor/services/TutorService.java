@@ -46,7 +46,7 @@ public class TutorService {
     }
 
     public Tutor fromDTO(TutorDTO tutorDTO){
-        return new Tutor(tutorDTO.getIdTutor(), tutorDTO.getNomeTutor());
+        return new Tutor(tutorDTO.getIdTutor(), tutorDTO.getNomeTutor(), tutorDTO.getCpfTutor(), tutorDTO.getTelefoneTutor());
     }
 
     private void updateData(Tutor novoTutor, Tutor tutor){

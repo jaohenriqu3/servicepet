@@ -13,22 +13,23 @@ public class Tutor {
     private Integer idTutor;
 
     @Column(name = "NOME_TUTOR")
-    private String NomeTutor;
+    private String nomeTutor;
 
     @Column(name = "CPF_TUTOR")
-    private String CpfTutor;
+    private String cpfTutor;
 
     @Column(name = "TELEFONE_TUTOR")
-    private String TelefoneTutor;
+    private String telefoneTutor;
 
   // @JsonIgnore
   // @OneToMany(mappedBy = "tutor", cascade = CascadeType.ALL );
   // invite List<Pet> pet;
 
-    public Tutor(Integer idTutor, String nomeTutor ){
+
+    public Tutor(Integer idTutor, String nomeTutor, String cpfTutor, String telefoneTutor) {
         this.idTutor = idTutor;
-        this.NomeTutor = nomeTutor;
-        this.CpfTutor = CpfTutor;
-        this.TelefoneTutor = TelefoneTutor;
+        this.nomeTutor = nomeTutor;
+        this.cpfTutor = cpfTutor;
+        this.telefoneTutor = telefoneTutor;
     }
 }
