@@ -1,9 +1,9 @@
-package com.br.servicepet.Pet.resources;
+package com.br.servicepet.pet.resources;
 
-import com.br.servicepet.Pet.domain.Pet;
-import com.br.servicepet.Pet.domain.PetDTO;
+import com.br.servicepet.pet.domain.Pet;
+import com.br.servicepet.pet.domain.PetDTO;
 import org.springframework.beans.factory.annotation.Autowired;
-import com.br.servicepet.Pet.services.PetService;
+import com.br.servicepet.pet.services.PetService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

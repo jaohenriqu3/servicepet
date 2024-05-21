@@ -1,6 +1,6 @@
-package com.br.servicepet.Tutor.repositories;
+package com.br.servicepet.tutor.repositories;
 
-import com.br.servicepet.Tutor.domain.Tutor;
+import com.br.servicepet.tutor.domain.Tutor;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

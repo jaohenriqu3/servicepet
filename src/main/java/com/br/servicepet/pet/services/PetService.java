@@ -1,10 +1,9 @@
-package com.br.servicepet.Pet.services;
+package com.br.servicepet.pet.services;
 
-import com.br.servicepet.Pet.domain.Pet;
-import com.br.servicepet.Pet.domain.PetDTO;
-import com.br.servicepet.Pet.repositories.PetRepository;
-import com.br.servicepet.Pet.resources.PetResource;
-import com.br.servicepet.Tutor.repositories.TutorRepository;
+import com.br.servicepet.pet.domain.Pet;
+import com.br.servicepet.pet.domain.PetDTO;
+import com.br.servicepet.pet.repositories.PetRepository;
+import com.br.servicepet.tutor.repositories.TutorRepository;
 import com.br.servicepet.exceptios.ExceptionDataIntegrityViolation;
 import com.br.servicepet.exceptios.ObjectNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;

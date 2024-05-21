@@ -1,13 +1,12 @@
-package com.br.servicepet.Tutor.services;
+package com.br.servicepet.tutor.services;
 
-import com.br.servicepet.Tutor.repositories.TutorRepository;
+import com.br.servicepet.tutor.repositories.TutorRepository;
 import com.br.servicepet.exceptios.NomeTutorJaExistenteException;
 import com.br.servicepet.exceptios.ObjectNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import com.br.servicepet.Tutor.domain.Tutor;
-import com.br.servicepet.Tutor.domain.TutorDTO;
-import com.br.servicepet.Tutor.resources.TutorResource;
+import com.br.servicepet.tutor.domain.Tutor;
+import com.br.servicepet.tutor.domain.TutorDTO;
 
 import java.util.List;
 import java.util.Optional;

@@ -1,6 +1,6 @@
-package com.br.servicepet.Pet.domain;
+package com.br.servicepet.pet.domain;
 
-import com.br.servicepet.Tutor.domain.Tutor;
+import com.br.servicepet.tutor.domain.Tutor;
 import jakarta.persistence.*;
 import lombok.Data;
 
@@ -25,8 +25,12 @@ public class Pet {
     @Column(name = "IDADE_PET")
     private Integer IdadePet;
 
-    @JoinColumn(name = "TUTOR_id")
+    @ManyToOne
+    @JoinColumn(name = "idTutor")
     private Tutor tutor;
+
+    public Pet() {
+    }
 
     public Pet(Integer idPET, String NomePet, String RaçaPet, String CorPet, Integer IdadePet){
         this.idPet = idPET;

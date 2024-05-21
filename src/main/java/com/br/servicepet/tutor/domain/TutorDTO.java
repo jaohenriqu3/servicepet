@@ -1,4 +1,4 @@
-package com.br.servicepet.Tutor.domain;
+package com.br.servicepet.tutor.domain;
 
 import lombok.Getter;
 import lombok.Setter;

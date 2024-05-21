@@ -1,9 +1,8 @@
-package com.br.servicepet.Tutor.resources;
+package com.br.servicepet.tutor.resources;
 
-import com.br.servicepet.Tutor.domain.Tutor;
-import com.br.servicepet.Tutor.domain.TutorDTO;
-import com.br.servicepet.Tutor.services.TutorService;
-import com.br.servicepet.Tutor.repositories.TutorRepository;
+import com.br.servicepet.tutor.domain.Tutor;
+import com.br.servicepet.tutor.domain.TutorDTO;
+import com.br.servicepet.tutor.services.TutorService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

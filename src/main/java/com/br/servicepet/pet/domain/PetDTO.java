@@ -1,4 +1,4 @@
-package com.br.servicepet.Pet.domain;
+package com.br.servicepet.pet.domain;
 
 import lombok.Getter;
 import lombok.Setter;
