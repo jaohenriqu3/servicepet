@@ -15,7 +15,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 @RestController
-@RequestMapping(value = "/categorias")
+@RequestMapping(value = "/tutor")
 public class TutorResource {
     @Autowired
     private TutorService TutorService;
