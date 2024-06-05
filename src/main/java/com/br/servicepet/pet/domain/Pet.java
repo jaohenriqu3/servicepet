@@ -17,7 +17,7 @@ public class Pet {
     private String NomePet;
 
     @Column(name = "RAÇA_PET")
-    private String RaçaPet;
+    private String RacaPet;
 
     @Column(name = "COR_PET")
     private String CorPet;
@@ -32,10 +32,10 @@ public class Pet {
     public Pet() {
     }
 
-    public Pet(Integer idPET, String NomePet, String RaçaPet, String CorPet, Integer IdadePet){
+    public Pet(Integer idPET, String NomePet, String RacaPet, String CorPet, Integer IdadePet){
         this.idPet = idPET;
         this.NomePet = NomePet;
-        this.RaçaPet = RaçaPet;
+        this.RacaPet = RacaPet;
         this.CorPet = CorPet;
         this.IdadePet = IdadePet;
     }

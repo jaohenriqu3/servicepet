@@ -9,14 +9,16 @@ public class PetDTO {
 
     private Integer idPet;
     private String NomePet;
-    private String RaçaPet;
+    private String RacaPet;
     private String CorPet;
     private Integer IdadePet;
+
+    public PetDTO(){}
 
     public PetDTO(Pet pet) {
         idPet = pet.getIdPet();
         NomePet = pet.getNomePet();
-        RaçaPet = pet.getRaçaPet();
+        RacaPet = pet.getRacaPet();
         CorPet = pet.getCorPet();
         IdadePet = pet.getIdadePet();
     }
