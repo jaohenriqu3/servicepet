@@ -11,7 +11,7 @@ public class TutorDTO {
     private String CpfTutor;
     private String TelefoneTutor;
 
-   // public TutorDTO(){}
+    public TutorDTO(){}
 
     public TutorDTO(Tutor tutor){
         idTutor = tutor.getIdTutor();

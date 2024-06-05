@@ -43,7 +43,7 @@ public class TutorResource {
     }
 
     @PutMapping("/{idTutor}")
-    public ResponseEntity<Tutor> atualizarCategoria(@Validated @RequestBody TutorDTO tutorDTO, @PathVariable Integer idTutor) {
+    public ResponseEntity<Tutor> atualizarTutor(@Validated @RequestBody TutorDTO tutorDTO, @PathVariable Integer idTutor) {
         Tutor tutor  = TutorService.fromDTO(tutorDTO);
         tutor.setIdTutor(idTutor);
         tutor = TutorService.atualizarTutor(tutor);
